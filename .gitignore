@@ -1,0 +1,29 @@
+
+# Environment & Secret Keys
+.env
+.env.*
+!.env.example
+**/.webui_secret_key
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Frontend / Open WebUI Runtime Data & Local Databases
+supportlite-frontend/data/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite3
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
